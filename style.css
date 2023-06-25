@@ -10,46 +10,54 @@ body {
     background-repeat: no-repeat;
     background-position: center top;
     font-size: 16px;
+    margin-left: 15%;
+    margin-top: 150px;
 }
 
 .wrap {
-    width: 90%;
-    max-width: 1000px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .widget {
     width: 40%;
-    margin: 2em;
+    margin-left: 65%;
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: white;
 }
 
 .widget p {
     display: inline-block;
     line-height: 1em;
-}
-
-.fecha {
-    text-align: center;
-    font-size: 1.5em;
-    margin-bottom: 5px;
-    background: rgba(0,0,0,.5);
-    padding: 20px;
-    width: 100%;
+    font-style: italic;
+    margin-top: 20px;
 }
 
 .reloj {
     width: 100%;
     padding: 20px;
-    font-size: 4em;
+    font-size: 7em;
     text-align: center;
     background: rgba(0,0,0,.5);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
 
-.reloj .caja-segundos {
-    display: inline-block;
-}
-
-.reloj .segundos,
-.reloj .ampm {
-    font-size: 2rem;
-    display: block;
+.frase {
+    padding: 5px;
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+    background: rgba(0,0,0,.5);
+    border-radius: 5px;
+    color: white;
+    width: 80%;
+    margin-top: 90px;
 }
